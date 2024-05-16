@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+/* Container...................... */
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+/* Header.......................... */
+
+.logo_second {
+    position: absolute;
+    /* display: none; */
+}
+
+header {
+    width: 100%;
+    height: 100px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #4f5168;
+    padding: 15px 0;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+
+    margin-right: 15px;
+}
+
+.logo__name {
+    opacity: 0.75;
+}
+
+/* Nav.................... */
+.nav {
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.nav__link {
+    margin-left: 50px;
+    color: #000000;
+    text-decoration: none;
+    opacity: 0.75;
+
+    transition: opacity 0.1s linear;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+/* Intro............... */
+
+.intro {
+    height: 725px;
+    padding-top: 100px;
+    background: #31344e url(img/MyCollages2.jpg);
+    background-size: cover;
+}
+.intro__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.intro__title {
+    display: flex;
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+.intro__img {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    /* margin-top: 10px; */
+}
+
+/* Students............. */
+
+.students {
+    display: flex;
+    align-items: center;
+    margin: 70px 0 50px;
+    height: 630px;
+}
+
+.students__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.students__item {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.students__item__two {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.students__h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: 0.75;
+}
+
+.students__photo {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.students__photo__two {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.students__name {
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #2d3033;
+    text-align: center;
+    opacity: 0.75;
+}
+
+.students__group {
+    margin-bottom: 15px;
+
+    font-size: 17px;
+    color: #e84545;
+    text-align: center;
+}
+
+.students__text {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #6c7279;
+    text-align: center;
+}
+
+.students__link {
+    text-decoration: none;
+}
+
+.students__name:hover {
+    opacity: 1;
+}
+
+.prev-button,
+.next-button {
+  background-color: rgb(178, 178, 178);
+  border: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+
+.prev-button {
+    border-radius: 100px 20px 20px 100px;
+}
+
+.next-button {
+    border-radius: 20px 100px 100px 20px;
+}
+
+.prev-button:hover {
+    opacity: 1;
+    background-color: #868686;
+}
+
+.next-button:hover {
+    opacity: 1;
+    background-color: #868686;
+}
+
+.slider__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer................ */
+
+footer {
+    background-color: #3a3e64;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+/* Copyright.............. */
+
+.copyright {
+    background-color: #313454;
+
+    padding: 20px 0;
+}
+
+.copyright__text {
+    text-align: center;
+    color: #808080;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.copyright__text span {
+    color: #fff;
+}
+
+/* Keyframes................... */
